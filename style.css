@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(70, 70, 70);
+}
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #dddddd;
+}
+.selet {
+    background-color: rgb(255, 250, 250);
+    width: 86px !important;
+    height: 57px !important;
+    color: rgb(63, 63, 63);
+    font-weight: bolder;
+    font-size: 13px;
+}
+.squaere {
+    border-top: rgba(130, 130, 130, 1) solid 4px !important;
+    border-bottom: rgba(120, 120, 120, 1) solid 6px !important;
+    border-left: rgba(117, 117, 117, 1) solid 5px !important;
+    border-right: rgba(120, 120, 120, 1) solid 5px !important;
+    border-radius: 15px 15px 15px 15px;
+    outline: rgba(186, 186, 186, 1) dashed 2px;
+    box-shadow: 3px 3px 7px 5px rgba(232, 232, 232, 0.09) inset;
+    margin: auto auto auto auto;
+    width: 371px !important;
+    height: 382px !important;
+    float: none;
+    cursor: move;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: auto;
+    text-align: center;
+}
+.fs {
+    background-color: rgba(173, 173, 173, 1);
+    margin: -300px 0 1px 20px;
+    border-radius: 15px 15px 15px 15px;
+    border: rgba(110, 110, 110, 1) dotted 3px;
+    width: 184px !important;
+    height: 27px !important;
+    color: rgba(255, 255, 255, 1);
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+.answer {
+    margin: -200px 0 0 10px;
+    background-color: rgba(171, 171, 171, 1);
+    border: rgba(110, 110, 110, 1) solid 1px;
+    border-radius: 15px 15px 15px 15px;
+    outline: rgb(255, 255, 255, 1) dashed 5px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+.titlethird {
+    color: rgb(207, 233, 245);
+    font-weight: bold;
+    font-size: 15px;
+}
