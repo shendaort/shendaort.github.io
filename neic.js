@@ -1,4 +1,4 @@
-const ID=[13665906]
+const ID=[13665906,13280724,283435000176211,13224800,50265226,50466291]
 
 async function login(){
     const map = 'https://dao3.fun/play/d39efd7b5b9736b28f32'
