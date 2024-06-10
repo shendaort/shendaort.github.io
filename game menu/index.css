@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(70, 70, 70);
+}
+h1{
+    color: #ffffff;
+}
+h2{
+    color: #dddddd;
+}
+h3{
+    color: #dddddd;
+}
+h6{
+    color: #767676;
+}
+.gamepicture{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 0px #ccc;
+    border-radius: 15px;
+    border-width: 2px;
+    clear: both;
+    display: block;
+    margin:auto;
+}
+.gameindex{
+    width: 200px;
+    height: 265px;
+    box-shadow: 1px 1px 1px  #ffffff;
+    border-radius: 15px;
+    border-width: 2px
+}
+.gameqi{
+    width: 150px;
+    height: 10px;
+    box-shadow: 0px 0px 0px #ffffff;
+    border-bottom-right-radius: 67px;
+    border-width: 2px;
+    outline: #ffc12a solid 2px;
+    color:#ffffff;
+    background-color: rgb(255, 194, 61);
+    border-radius: 0 0 154px 0;
+    
+}
+div {
+    height: 200px;
+    width: 200px;
+}
+.flex-div{
+    display: flex;
+    width: auto;
+}
