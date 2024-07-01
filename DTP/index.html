@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岛铁考试平台</title>
+    <link rel="icon" href="DTP-logo.png">
+
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+  <div id="sidebar">
+    <h2>&nbsp;&nbsp;岛铁考试平台</h2>
+    <a href="#home" onclick="loadPage('home')">主页</a>
+    <a href="#drivertest" onclick="loadPage('drivertest')">驾驶员考试</a>
+    <a href="#learn" onclick="loadPage('learn')">学习驾驶</a>
+    <a href="#join" onclick="loadPage('join')">报名考试</a>
+    <a href="#test1" onclick="loadPage('test1')">驾驶员考试-科目一（理论知识考试）</a>
+    <a href="#test2" onclick="loadPage('test2')">驾驶员考试-科目二、三、四（预约时间）</a>
+    <a href="#score" onclick="loadPage('score')">成绩查询</a>
+    <a href="#admin" onclick="loadPage('admin')">考试工作人员-管理</a>
+    <a href="#about" onclick="loadPage('about')">关于</a>
+    
+    
+</div>
+ 
+
+<div id="content">
+    
+    
+</div>
+<script>
+  function loadPage(page) {
+    var content = document.getElementById('content');
+    
+    switch(page) {
+      case 'home':
+        content.innerHTML = '<iframe src="./homepage.html" frameborder="0"></iframe>';
+        break;
+      case 'drivertest':
+        content.innerHTML = '<iframe src="./drivertestpage.html" frameborder="0"></iframe>';
+        break;
+      case 'learn':
+        content.innerHTML = '<iframe src="./learn.html" frameborder="0"></iframe>';
+        break;
+      case 'join':
+        content.innerHTML = '<iframe src="./join.html" frameborder="0"></iframe>';
+        break;
+      case 'test1':
+        alert(`暂不开放`)
+        break;
+      case 'test2':
+        alert(`暂不开放`)
+        break;
+      case 'score':
+        alert(`暂不开放`)
+        break;
+      case 'admin':
+        content.innerHTML = '<h1>404 not found</h1><p>还在修缮中，请各位管理员通过Q群查看信息</p>';
+        break;
+      case 'about':
+        content.innerHTML = '<h1>关于岛铁考试平台</h1><p>我们成立于2023年11月，是神岛上唯一一家拥有神岛地铁驾驶员考试管理的平台。最终解释权归岛铁考试平台所有。如有疑问，请发信息至邮箱shendaort@163.com</p>';
+        break;
+    }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岛铁考试平台</title>
+    <link rel="icon" href="DTP-logo.png">
+
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../script.js"></script>
+</head>
+<body>
+    
+  <div id="sidebar">
+    <h2>&nbsp;&nbsp;12号线驾驶学习</h2>
+    <a href="#h1" onclick="loadPage('v1')">手动驾驶学习</a>
+    <a href="#h2" onclick="loadPage('v2')">GTA辅助驾驶学习</a>
+    <a href="#h3" onclick="loadPage('v3')">变轨操作学习</a>
+
+    
+    
+</div>
+ 
+
+<div id="content">
+    
+    
+</div>
+<script>
+  function loadPage(page) {
+    var content = document.getElementById('content');
+    
+    switch(page) {
+      case 'v1':
+        content.innerHTML = '<video width="100%" height="100%" controls autoplay><source src="https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/27/31/500001601373127/500001601373127-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1719814599&gen=playurlv2&os=cosbv&oi=17621919&trid=64130f7caf4b43dcb784f562466ca08ch&mid=0&platform=html5&og=cos&upsig=001fa6f4a37dd78fcb554c59a6ab2a50&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform,og&bvc=vod&nettype=0&f=h_0_0&bw=28090&logo=80000000" type="video/mp4"></video>';
+        break;
+      case 'v2':
+        content.innerHTML = '<video width="100%" height="100%" controls autoplay><source src="https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/55/21/500001601372155/500001601372155-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1719814719&gen=playurlv2&os=cosbv&oi=17627301&trid=040dbb7027404661b4626c11abe68c88h&mid=0&platform=html5&og=cos&upsig=e1c6c535ef5910023cd7e2e049243fa3&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform,og&bvc=vod&nettype=0&f=h_0_0&bw=26629&logo=80000000" type="video/mp4"></video>';
+        break;
+      case 'v3':
+        content.innerHTML = '<video width="100%" height="100%" controls autoplay><source src="https://upos-sz-mirrorcos.bilivideo.com/upgcxcode/08/28/500001601372808/500001601372808-1-192.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1719814673&gen=playurlv2&os=cosbv&oi=1866713016&trid=12a8d71b817941f7a373e68a2b3b8873O&mid=0&platform=html5&og=cos&upsig=89ce638cb792340bd0e8ade4abcfc0cd&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform,og&bvc=vod&nettype=1&orderid=0,3&buvid=&build=7330300&f=O_0_0&bw=85065&logo=80000000" type="video/mp4"></video>';
+        break;
+      
+    }
+  }
+</script>
+</body>
+</html>
