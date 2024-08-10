@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>图片转地形</title>
+    <meta name="twitter:creator" content="@he_">
+    <link rel="icon" href="https://dao3.fun/_next/image?url=%2Factivities%2FappDownload%2Fdownload-logo.png" type="image/png">
+    
+</head>
+<body>
+    <h1>图片转地形</h1>
+    <h6>限时免费</h6>
+    <h6>made by h何某某</h6>
+    <span>缩放比：</span><input type="number" id="pxcl" class="sligh"><br>
+    <form>
+        <p>排列方式：</p>
+        <input type="radio" id="x" name="sdim" value="x">
+        <label for="x">沿x轴（竖|）</label><br>
+        <input type="radio" id="z" name="sdim" value="z">
+        <label for="z">沿z轴（竖|）</label><br>
+        <input type="radio" id="y" name="sdim" value="y">
+        <label for="y">沿y轴（平铺——）</label><br>
+    </form><br>
+    <input type="file" id="imageInput" accept="image/*" class="wl"><br>
+    <canvas id="canvas" style="display:none;"></canvas><br>
+    
+    <script src="script.js"></script><br><br>
+
+    <span>代码生成区域：(sx为起始坐标)</span>&nbsp;&nbsp;<button class="square_button" id="copycode" onclick="copycode()">复制代码</button>&nbsp;&nbsp;<button class="square_button" id="res" onclick="location.reload()">再次生成</button><br><br>
+    <code id="daima"></code>
+</body>
+<footer>
+    <p>Copyright 10/8/2024 h何某某 保留所有权利</p>
+</footer>
+</html>
